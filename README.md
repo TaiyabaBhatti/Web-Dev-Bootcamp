@@ -1,3 +1,3 @@
-#Web-Dev-Bootcamp
+# Web-Dev-Bootcamp
 
-A Repository that show case not all but basics Html Css and Javascript. Also Include somr practice projects. 
+A Repository that shows cases not all but basics Html CSS and Javascript. Also, Include some practice projects. 
