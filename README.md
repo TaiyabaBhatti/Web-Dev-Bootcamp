@@ -7,3 +7,4 @@ A Repository that show case not all but basics Html Css and Javascript code. Als
 1. [W3 school](https://www.w3schools.com/)
 2. [freecodecamp](https://www.freecodecamp.org/learn/)
 
+A Repository that show case not all but basics Html Css and Javascript. Also Include somr practice projects. 
