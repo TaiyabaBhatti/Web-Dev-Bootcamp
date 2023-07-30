@@ -1,0 +1,14 @@
+div{
+    background-color: aquamarine;
+    width: 100px;
+    height:100px;
+   transition-property: box-shadow;
+   transition-duration: .30s;
+   
+   
+}
+
+div:hover{
+   box-shadow: 0 0 4px 2px rgb(83, 92, 92);
+   
+}

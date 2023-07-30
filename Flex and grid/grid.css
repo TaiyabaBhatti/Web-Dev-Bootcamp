@@ -1,0 +1,42 @@
+
+.Grid-container{
+ 
+    display: grid;
+   grid-template-columns: auto auto auto;
+    gap: 10px;
+
+}
+.Grid-container >div{
+   background-color: rgb(46, 93, 134);
+   text-align: center;
+   font-size: 30px;
+   padding: 12px 0;
+   color: aliceblue;
+}
+ .one{
+    grid-column: 1/span 2;
+}
+ .four{
+    grid-column: 2/span 2;
+}
+
+.five{
+    grid-row: 3/span 2;
+}
+.seven{
+    grid-column-start: 3;
+    grid-row:3/span 2;
+}  
+
+
+
+
+
+@media screen and (max-width:450px) {
+
+    .Grid-container{
+        grid-template-columns: auto auto;
+    }
+    
+}
+

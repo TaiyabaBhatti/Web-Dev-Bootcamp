@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+   
+   
+    
+  }
+  .label {
+    border: 2px solid black;
+    width: fit-content;
+    margin:20px auto;
+  padding: 0 10px;
+ 
+  }
+ header h1 {
+   
+    text-align:center;
+    margin: -5px 0;
+    letter-spacing: 0.9px;;
+  }
+  .divider{
+    border-bottom:1px solid gray ;
+    margin:5px 0;
+  }
+  .bold{
+    font-weight: 800;
+  }
+  p{
+    display: flex;
+    justify-content: space-between;
+  }
+  .large{
+    height: 10px;
+     background-color: black;
+     border:0;
+  }
+  

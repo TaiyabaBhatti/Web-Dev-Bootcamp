@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Online Forms</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<style>
+.block{
+	display:block;
+}
+fieldset{
+	background-color: mintcream;
+}
+label,input{
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+input{
+	font-size: 17px;
+}
+#fname,#lname,#mail{
+	width:151px;
+}
+input[type="submit"]{
+	margin-top: 20px;
+	margin-left: 395px;
+}
+
+form{
+width: 500px;
+font-size: 3vh;
+}
+
+
+
+
+
+
+</style>
+	</head>
+	<body>
+   <form>
+
+   <fieldset>
+   	<legend>Personal Details</legend>
+   <label >Salutation
+<select class="block">
+	<option>--None--</option>
+	<option>Good Morning</option>
+	<option>Have a nice day</option>
+</select>
+   </label>
+   <label for="fname" class="block">First Name: <input type="text" id="fname" required></label>
+   <label for="lname" class="block">Last Name: <input type="text" id="lname" required></label>
+   <label>Gender: </label>
+   <label for="male"><input type="radio" id="male" name="person"  required>Male</label>
+   <label for="female"><input type="radio" id="female" name="person"  required>Female</label>
+   <label for="mail" class="block">Email: <input type="email" id="mail" required></label>
+   <label for="Bdate" class="block">Date of Birth: <input type="date" id="Bdate" required></label>
+   <label >Address:</label>
+   <textarea class="block" rows="3" cols="33" placeholder="Your Permenant Residence" required></textarea>
+   <input type="submit" value="Submit">
+
+
+
+
+
+   </fieldset>
+   </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>

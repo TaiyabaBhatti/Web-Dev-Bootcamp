@@ -1,0 +1,53 @@
+.canvas{
+    background-color: aquamarine;
+    width:300px;
+    height: 400px;
+    /*this property used to clip the canvas moving past*/
+    overflow: hidden;
+    filter: blur(1px);
+}
+.frame{
+    border: 30px solid black;
+    width:300px;
+    padding:30px;
+    margin-block: 30px;
+    margin-inline: auto;
+
+}
+.one{
+    background-color: brown;
+    width:83%;
+    height: 20%;
+    margin:30px auto;
+    box-shadow: 0 0 3px 3px brown ;
+    border-radius: 5px;
+    transform: rotate(-1.3deg);
+}
+.two{
+    background-color: rgb(221, 157, 17);
+    width:95%;
+    height: 28%;
+    margin:0 auto 20px auto;
+    box-shadow: 0 0 3px 3px rgb(221, 157, 17) ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: rotate(1deg);
+}
+.three{
+    width:91%;
+    height: 28%;
+    background-color: rgb(221, 75, 17);
+    margin: auto;
+    box-shadow: 0 0 5px 5px rgb(221, 75, 17);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: rotate(-1deg);
+}
+ .one,.two{
+    filter: blur(1px);
+} 
+.three{
+    filter: blur(2px);
+
+}
+  

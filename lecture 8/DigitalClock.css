@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.digital-clock{
+    display: grid;
+    grid-template-columns: repeat(3,33.38%);
+  position: relative;
+  width: 50vw;
+  height: 30vh;
+  border: 2px solid black;
+  box-shadow: 2px 2px 8px 5px gray;
+}
+.one{
+     
+ 
+    border-right: 2px solid black;
+}
+.two{
+   
+    border-right: 2px solid black;
+}

@@ -1,0 +1,64 @@
+body{
+   background: linear-gradient(60deg, rgb(119, 123, 138),rgb(9, 104, 155));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    
+ 
+    
+}
+.heading{
+   text-decoration-line: underline;
+   color: aliceblue;
+    text-align: center;
+
+}
+.container{
+    border: 2px solid rgb(14, 13, 82);
+    display: inline-block;
+    width: 20vw;
+     /* margin:2vw 0 0 15vw;
+     margin-left: 12vw;
+    margin-top: 2vw; 
+    padding: 0 0 5vw 5vw;
+     padding-left: 5vw;
+    padding-bottom: 5vw;  */
+    background-color: rgba(14, 13, 82, 0.479);
+    padding:3vw;
+}
+#con1{
+    margin-left: 22vw;
+}
+
+
+.block{
+    display: block;
+   /* padding-bottom: 10px; */
+   padding:10px 0 1vh 0;
+   /* padding-top: 10px;
+   padding-bottom: 1vh; */
+   color: beige;
+}
+.line,#con3,#con4{
+    color: aliceblue;
+}
+#button{
+    display:block
+}
+#con3{
+    background-color:rgba(14, 13, 82, 0.479);
+    border: 2px solid rgb(14, 13, 82);
+    width:50vw;
+    /* margin-left:24vw ;
+    margin-top: 5vh; */
+    margin:5vh 0 0 22.5vw;
+    padding: 2vh;
+
+}
+#button{
+    margin-left: 45vw;
+}
+#con4{
+    border: 2px solid rgb(14, 13, 82);
+    background-color: rgba(14, 13, 82, 0.479);
+    margin-top: 12vw;
+}

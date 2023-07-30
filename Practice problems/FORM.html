@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal infomation</legend>
+        <label for="fname">First name</label>
+        <div>
+          <input type="text" name="myfname" id="fname" />
+        </div>
+        <label for="lname">Last name</label><br />
+        <div>
+          <input type="text" name="mylname" id="lname" />
+        </div>
+        <label for="bday">Date of Birth</label>
+        <div>
+          <input type="date" name="birth date" id="bday" />
+        </div>
+
+        <label for="myemail">Personal Email</label>
+        <div>
+          <input type="email" name="email" id="myemail" />
+        </div>
+
+        <label for="password">Password</label>
+        <div>
+          <input type="password" name="mypassword" id="password" />
+        </div>
+        <label for="gender">Gender</label>
+        <div>
+          <input type="radio" name="mygender" id="gender" />Female <br />
+
+          <input type="radio" name="mygender" id="gender" />Male <br />
+          <input type="radio" name="mygender" id="gender" />Other <br />
+        </div>
+        <label for="address"> Current Address</label>
+        <div>
+          <textarea
+            name="myaddress"
+            id="address"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Academic information</legend>
+        <label for="edu">Education</label>
+        <div>
+          <select name="education" id="edu">
+            <option value="gr">Graduated</option>
+            <option value="ug">Undergraduate</option>
+            <option value="se">Secondary</option>
+            <option value="ma">Masters</option>
+          </select>
+        </div>
+        <label for="interest">Area of interest</label>
+        <div>
+          <input type="checkbox" name="CC" id="interest" />Cloud Computing
+          <br />
+          <input type="checkbox" name="SE" id="interest" />Software
+          Engineering<br />
+          <input type="checkbox" name="EH" id="interest" />Ethical Hacking<br />
+          <input type="checkbox" name="FSD" id="interest" />Full stack
+          Developer<br />
+          <input type="checkbox" name="AI" id="interest" />Artificial
+          inteligence<br />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Profiles</legend>
+
+        <label for="Linkendin">Linkendin</label>
+        <div>
+          <input type="url" name="mylinkendin" id="Linkendin" />
+        </div>
+        <label for="Facebook">Facebook</label>
+        <div>
+          <input type="url" name="myfacebook" id="Facebook" />
+        </div>
+      </fieldset>
+      <br />
+
+      <input type="submit" value="Submit now" />
+      <input type="reset" value="Reset here" />
+     
+    </form>
+  </body>
+</html>
